@@ -467,7 +467,9 @@ if (_FILE)
                 {
                     var _rowdata = _glypharr[@ j];
                     
-                    var _str = _rowdata[@ 0];
+                    //var _str = _rowdata[@ 0];
+					var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+					_str = string_replace_all(_str, "1", "0");
                     var _packedarr = _rowdata[@ 1];
                     
                     var _rowcode = chr(9); // current row of code
@@ -570,7 +572,9 @@ if (_FILE)
                 {
                     var _rowdata = _glypharr[@ j];
                     
-                    var _str = _rowdata[@ 0];
+                    //var _str = _rowdata[@ 0];
+					var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+					_str = string_replace_all(_str, "1", "0");
                     var _packedarr = _rowdata[@ 1];
                     
                     var _rowcode = chr(9); // current row of code
@@ -632,7 +636,10 @@ if (_FILE)
                 {
                     var _rowdata = _glypharr[@ j];
                     
-                    var _str = _rowdata[@ 0];
+	                    //var _str = _rowdata[@ 0];
+						var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+						_str = string_replace_all(_str, "1", "0");
+
                     var _packedarr = _rowdata[@ 1];
                     
                     var _rowcode = chr(9); // current row of code
@@ -694,7 +701,9 @@ if (_FILE)
                 {
                     var _rowdata = _glypharr[@ j];
                     
-                    var _str = _rowdata[@ 0];
+                    //var _str = _rowdata[@ 0];
+					var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+					_str = string_replace_all(_str, "1", "0");
                     var _packedarr = _rowdata[@ 1];
                     
                     var _rowcode = chr(9); // current row of code
@@ -818,7 +827,9 @@ if (_FILE)
                 {
                     var _rowdata = _glypharr[@ j];
                     
-                    var _str = _rowdata[@ 0];
+                    //var _str = _rowdata[@ 0];
+					var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+					_str = string_replace_all(_str, "1", "0");
                     var _packedarr = _rowdata[@ 1];
                     
                     var _rowcode = chr(9); // current row of code
@@ -880,7 +891,9 @@ if (_FILE)
                 {
                     var _rowdata = _glypharr[@ j];
                     
-                    var _str = _rowdata[@ 0];
+                    //var _str = _rowdata[@ 0];
+					var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+					_str = string_replace_all(_str, "1", "0");
                     var _packedarr = _rowdata[@ 1];
                     
                     var _rowcode = chr(9); // current row of code
@@ -942,7 +955,9 @@ if (_FILE)
                 {
                     var _rowdata = _glypharr[@ j];
                     
-                    var _str = _rowdata[@ 0];
+                    //var _str = _rowdata[@ 0];
+					var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+					_str = string_replace_all(_str, "1", "0");
                     var _packedarr = _rowdata[@ 1];
                     
                     var _rowcode = chr(9); // current row of code
@@ -997,7 +1012,9 @@ if (_FILE)
                 {
                     var _rowdata = _glypharr[@ j];
                     
-                    var _str = _rowdata[@ 0];
+                    //var _str = _rowdata[@ 0];
+					var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+					_str = string_replace_all(_str, "1", "0");
                     var _packedarr = _rowdata[@ 1];
                     
                     var _rowcode = chr(9); // current row of code
@@ -1056,7 +1073,9 @@ if (_FILE)
                     {
                         var _rowdata = _glypharr[@ j];
                         
-                        var _str = _rowdata[@ 0];
+	                    //var _str = _rowdata[@ 0];
+						var _str = string_replace_all(_rowdata[@ 0], "0", ".");
+						_str = string_replace_all(_str, "1", "0");
                         var _packedarr = _rowdata[@ 1];
                         
                         var _rowcode = chr(9); // current row of code
