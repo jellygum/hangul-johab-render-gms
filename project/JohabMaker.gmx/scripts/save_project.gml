@@ -27,7 +27,7 @@ draw_clear_alpha(0, 0);
 draw_sprite(maskAtlas, 0, 0, 0);
 surface_reset_target();
 
-buffer_get_surface(_maskbuffer, atlasTemp, 0, 0, 0);
+buffer_get_surface(_maskbuffer, atlasTemp, 0);
 surface_save(atlasTemp, working_directory + "/debug/atlas_mask_save.png"); // for debug
 // show_debug_message("MASK BUFFER SIZE : " + string(buffer_get_size(_maskbuffer)));
 
@@ -37,7 +37,7 @@ draw_clear_alpha(0, 0);
 draw_sprite(bakedAtlas, 0, 0, 0);
 surface_reset_target();
 
-buffer_get_surface(_bakedbuffer, atlasTemp, 0, 0, 0);
+buffer_get_surface(_bakedbuffer, atlasTemp, 0);
 surface_save(atlasTemp, working_directory + "/debug/atlas_baked_save.png"); // for debug
 // show_debug_message("MASK BUFFER SIZE : " + string(buffer_get_size(_bakedbuffer)));
 ///////////////////////

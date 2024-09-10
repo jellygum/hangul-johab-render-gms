@@ -51,7 +51,7 @@ if (_FILE)
     var _texturewid = charWid * gridWid;
     var _texturehei = charHei * gridHei;
     var _texturebuff = buffer_create(_texturewid * _texturehei * 4, buffer_grow, 1);
-    buffer_get_surface(_texturebuff, fntTex, 0, 0, 0);
+    buffer_get_surface(_texturebuff, fntTex, 0);
     
     for (var i=0; i<_glyphnum; i++)
     {
@@ -177,7 +177,7 @@ if (_FILE)
         var _texturewidascii = charAsciiWid * 32;
         var _textureheiascii = charAsciiHei * 8;
         var _texturebuff = buffer_create(_texturewidascii * _textureheiascii * 4, buffer_grow, 1);
-        buffer_get_surface(_texturebuff, fntAsciiTex, 0, 0, 0);
+        buffer_get_surface(_texturebuff, fntAsciiTex, 0);
         
         for (var i=0; i<_glyphnumascii; i++)
         {
